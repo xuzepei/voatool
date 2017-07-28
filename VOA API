@@ -1,0 +1,102 @@
+VOA API
+
+Audios  
+https://api.innoloop.net/voale/classes/Article
+POST
+
+Refresh
+{
+	"order": "-original_pubtime,-article_id",
+	"keys": "article_id,audio,audio_hq,cf_url,cover,dropbox_url,duration,dynamic_link,hero,like_count,original_pubtime,subtitle,title,title_lowercase,view_count",
+	"_method": "GET",
+	"where": {
+		"status": "published"
+	}
+}
+
+Load more
+{
+	"skip": "100",
+	"order": "-original_pubtime,-article_id",
+	"keys": "article_id,audio,audio_hq,cf_url,cover,dropbox_url,duration,dynamic_link,hero,like_count,original_pubtime,subtitle,title,title_lowercase,view_count",
+	"_method": "GET",
+	"where": {
+		"status": "published"
+	}
+}
+
+Programs
+
+Audios
+{
+	"order": "-original_pubtime,-article_id",
+	"keys": "article_id,audio,audio_hq,cf_url,cover,dropbox_url,duration,dynamic_link,hero,like_count,original_pubtime,subtitle,title,title_lowercase,view_count",
+	"_method": "GET",
+	"where": {
+		"status": "published",
+		"programs": "As It Is"
+	}
+}
+
+"programs": "America's National Parks"
+"programs": "American Mosaic"
+"programs": "American Stories"
+"programs": "In the News"
+"programs": "Business"
+"programs": "Education"
+"programs": "Everyday Grammar"
+"programs": "Health Report"
+"programs": "Science in the News"
+"programs": "Personal Technology"
+"programs": "People in America"
+"programs": "The Making of a Nation"
+"programs": "This is America"
+"programs": "The Year in Review"
+"programs": "Words and Their Stories"
+"programs": "What's Trending?"
+"programs": "VOA Newscast"
+
+Video
+https://api.innoloop.net/voale/classes/Video
+{
+	"order": "-pubtime,-video_id",
+	"keys": "cf_url,cover,dropbox_url,duration,hq_ok,like_count,link_url,mobile_ok,pubtime,subtitle,title,title_lowercase,video_id,video_url,view_count,yt_url",
+	"_method": "GET",
+	"where": {
+		"status": "published"
+	}
+}
+
+{
+	"skip": "100",
+	"order": "-pubtime,-video_id",
+	"keys": "cf_url,cover,dropbox_url,duration,hq_ok,like_count,link_url,mobile_ok,pubtime,subtitle,title,title_lowercase,video_id,video_url,view_count,yt_url",
+	"_method": "GET",
+	"where": {
+		"status": "published"
+	}
+}
+
+
+{
+	"order": "-pubtime,-video_id",
+	"keys": "cf_url,cover,dropbox_url,duration,hq_ok,like_count,link_url,mobile_ok,pubtime,subtitle,title,title_lowercase,video_id,video_url,view_count,yt_url",
+	"_method": "GET",
+	"where": {
+		"status": "published",
+		"programs": "Agriculture Report"
+	}
+}
+
+"programs": "Economics Report"
+"programs": "Education Report"
+"programs": "Health Report"
+"programs": "Lifestyles"
+"programs": "Technology Report"
+"programs": "News Words"
+"programs": "English in a Minute"
+"programs": "English @ the Movies"
+"programs": "English Grammar TV"
+"programs": "Talk2Us"
+
+
