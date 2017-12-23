@@ -21,7 +21,7 @@
     
     self.index = -1;
     
-    self.categories = @[@"As It Is",@"America's National Parks",@"American Mosaic",@"American Stories",@"In the News",@"Business",@"Education",@"Everyday Grammar",@"Health Report",@"Science in the News",@"Personal Technology",@"People in America",@"The Making of a Nation",@"This is America",@"The Year in Review",@"Words and Their Stories",@"What's Trending?",@"VOA Newscast",@"Economics Report",@"Education Report",@"Health Report",@"Lifestyles",@"Technology Report",@"News Words",@"English in a Minute",@"Talk2Us",@"English @ the Movies",@"English Grammar TV"];
+    self.categories = @[@"As It Is",@"America's National Parks",@"American Mosaic",@"American Stories",@"In the News",@"Business",@"Education",@"Everyday Grammar",@"Health Report",@"Science in the News",@"Personal Technology",@"People in America",@"The Making of a Nation",@"This is America",@"The Year in Review",@"Words and Their Stories",@"What's Trending?",@"VOA Newscast",@"Economics Report",@"Education Report",@"Lifestyles",@"Technology Report",@"News Words",@"English in a Minute",@"Talk2Us",@"English @ the Movies",@"English Grammar TV"];
 }
 
 
